@@ -6,7 +6,7 @@ int* queue;
 int	front;			// 전단
 int	rear;			// 후단
 int size = 1; 
-
+ 
 //큐가 공백 상태인지 확인하는 연산
 int isEmpty() {
 	if (front == rear) 
