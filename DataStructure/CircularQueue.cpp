@@ -40,7 +40,7 @@ void enqueue(int item) {
 		queue[rear] = item;
 	}
 }
-
+//스택의 top에 원소를 삭제하는 연산
 int dequeue() {
 	if (isEmpty()) {	// 큐가 공백 상태인 경우
 		printf("\n\n Queue is Empty!!\n");
