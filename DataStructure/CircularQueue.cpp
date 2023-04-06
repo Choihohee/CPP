@@ -81,5 +81,5 @@ void main(void) {
 	printQueue();
 
 	free(queue);
-	getchar();
+	getchar(); 
 }
